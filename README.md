@@ -6,7 +6,7 @@ Hi there! I'm **Satvik Patil**, a passionate developer and designer dedicated to
 ---
 
 ## 🧑‍💻 About Me  
-![https://my-profile-three-omega.vercel.app/](#)  
+![Satvik Patil Profile](#)  
 **Satvik Patil**  
 - **Current Role**: Student pursuing Bachelor of Engineering in Computer Science and Engineering at Basaveshwar Engineering College, Bagalkote.  
 - **Experience**: Internship at Vealthx - Designed and developed a fintech website using Figma and React.js for a user-centric experience.  
