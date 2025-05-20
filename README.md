@@ -1,66 +1,73 @@
-# Protolife
+# Welcome to your Lovable project
 
-### Welcome to Protolife 🚀  
-Hi there! I'm **Satvik Patil**, a passionate developer and designer dedicated to crafting intuitive and impactful solutions. Protolife is a reflection of my journey in web development, design, and creative problem-solving.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/0611bfa8-51e4-4071-97b1-5f05d9f84af2
 
-## 🧑‍💻 About Me  
-![Satvik](profile-pic.jpg)
+## How can I edit this code?
 
-**Satvik Patil**  
-- **Current Role**: Student pursuing Bachelor of Engineering in Computer Science and Engineering at Basaveshwar Engineering College, Bagalkote.  
-- **Experience**: Internship at Vealthx - Designed and developed a fintech website using Figma and React.js for a user-centric experience.  
-- **Aspiration**: I aim to contribute to impactful projects while continuing to grow and learn as a developer. Team collaboration inspires me to deliver meaningful results.  
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 🛠️ Skills  
+Simply visit the [Lovable Project](https://lovable.dev/projects/0611bfa8-51e4-4071-97b1-5f05d9f84af2) and start prompting.
 
-### Programming Languages:  
-- C, Java, Python  
+Changes made via Lovable will be committed automatically to this repo.
 
-### Front-End Technologies:  
-- HTML, CSS, JavaScript, React.js, Tailwind CSS  
+**Use your preferred IDE**
 
-### Database:  
-- Structured Query Language (SQL)  
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Design Tools:  
-- Figma, Adobe Firefly, Premiere Pro, Canva  
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Cloud Computing:  
-- AWS  
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## 📂 Projects  
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-### 1. **Automated README File Generator in Python**  
+# Step 3: Install the necessary dependencies.
+npm i
 
-### 2. **Web Application Security with AWS WAF Integration**  
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-### 3. **User-Centric Fintech Website Development for Vealthx**  
+**Edit a file directly in GitHub**
 
-### 4. **Real-Time Crypto Website with React.js**  
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### 5. **Dynamic Marketing Design for Nike's Online Store**  
+**Use GitHub Codespaces**
 
-### 6. **Intuitive UI Design for Logitech MX Ergo S Trackball Mouse**  
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
----
+## What technologies are used for this project?
 
-## 📧 Contact Me  
-Feel free to reach out for collaborations, queries, or just to say hi!  
+This project is built with:
 
-- **Email**: 7satvikpatil@gmail.com  
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## 🌟 Explore  
-- **[About](#)**  
-- **[Skills](#)**  
-- **[Projects](#)**  
-- **[Contact](#)**  
+Simply open [Lovable](https://lovable.dev/projects/0611bfa8-51e4-4071-97b1-5f05d9f84af2) and click on Share -> Publish.
 
-Thank you for visiting Protolife! 😊  
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
