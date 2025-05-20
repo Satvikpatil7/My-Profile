@@ -69,8 +69,8 @@ const Index = () => {
 
   const handleResumeClick = () => {
     const link = document.createElement("a");
-    link.href = "./Util/resume-example.pdf"; // Path to your resume file
-    link.download = "Satvik_Patil_Resume.pdf"; // Name for the downloaded file
+    link.href = ".//Util/resume-example.pdf"; // Path to your resume file
+    link.download = "resume-example.pdf"; // Name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
