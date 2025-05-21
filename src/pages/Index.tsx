@@ -67,21 +67,14 @@ const Index = () => {
     );
   }, []);
 
-  const handleResumeClick = () => {
-    const handleResumeClick = () => {
+   const handleResumeClick = () => {
     window.open(
       "https://drive.google.com/file/d/1-wfrXElfDtxOP_rUFxaqz7liy0IC51MD/view?usp=sharing",
       "_blank"
     );
     toast({
-      title: "Resume Download",
-      description: "Resume download started",
-    });
-  };
-
-    toast({
-      title: "Resume Download",
-      description: "Resume download started",
+      title: "Resume Opened",
+      description: "Resume is opening in a new tab",
     });
   };
 
