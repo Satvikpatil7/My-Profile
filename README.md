@@ -1,67 +1,73 @@
-# 🌙 Satvik Patil – Portfolio Website
+# Welcome to your Lovable project
 
-Welcome to the official portfolio of **Satvik Patil** – a dark-themed, modern, and responsive site built with **React**, **Tailwind CSS**, and **GSAP**. This site showcases my skills, projects, experience, and creative edge as a web developer.
+## Project info
 
-### 🚀 Live Preview  
-🔗 [my-profile-three-omega.vercel.app](https://my-profile-three-omega.vercel.app/)
+**URL**: https://lovable.dev/projects/0611bfa8-51e4-4071-97b1-5f05d9f84af2
 
----
+## How can I edit this code?
 
-## 📌 Features
+There are several ways of editing your application.
 
-- ⚡ Sleek dark theme with subtle gradients and watermark text
-- 💻 Responsive layout (mobile/tablet/desktop)
-- 🎞️ Smooth GSAP animations on scroll and hover
-- 🔗 Direct links to GitHub, LinkedIn, LeetCode, and more
-- 📄 Resume download + professional About section
-- 🛠️ Dynamic project showcase
-- 💬 Chatbot integration for interactive touch
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/0611bfa8-51e4-4071-97b1-5f05d9f84af2) and start prompting.
 
-## 📁 Sections
+Changes made via Lovable will be committed automatically to this repo.
 
-### 🏠 Home
-- **Intro**: "Hello, I'm Satvik Patil"
-- **Tagline**: "Code Cloud Create"
-- Social links: LinkedIn, GitHub, LeetCode, Twitter (X), Email
-- Download Resume button (scrolls to About)
+**Use your preferred IDE**
 
-### 👤 About
-- Brief bio & skills: JS, React, Redux, Tailwind, SQL, AWS, Azure, Figma
-- Education: B.E. Computer Science, Basaveshwar Engineering College
-- Satvik's photo + Finlon logo
-- GSAP fade-in animations
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 🛠️ Skills
-- **Languages**: Java, C, Python, C#, HTML, CSS, JavaScript  
-- **Frameworks**: React, Redux, Tailwind, MUI, Node.js  
-- **Tools**: SQL, Figma, Adobe Firefly, Premiere Pro, Canva, AWS, Azure  
-- Animated skill grid or bar chart
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### 📂 Projects
-- [README Generator](https://github.com/Satvikpatil7/README-File-Generator)  
-- [AWS WAF Defender](https://github.com/Satvikpatil7/CloudDefender)  
-- [Vealthx Fintech](https://www.vealthx.com/)  
-- [Crypto Site](https://crypto-olive-xi.vercel.app/)  
-- [AI Agent (MERN)](https://github.com/Satvikpatil7/AI-Agent-in-MERN)  
-- [Nike UI (Figma)](https://www.figma.com/proto/ItTHXjmF6Cqjq5nCoBY86Z/nike)  
-- [Logitech UI (Figma)](https://www.figma.com/proto/GCLwLDKOQLfqgQm40eCKQs/LOGITECH)  
-- [DSA Checkbox App](https://category-tree-checkbox-app.vercel.app/)  
-- [Recipe Search](https://autocomplete-component-eosin.vercel.app/)
+Follow these steps:
 
-### 💼 Experience
-- **Software Developer Intern** – *Barracuda Networks*, Bengaluru  
-  (Cybersecurity & Cloud Security)
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 🧑‍💻 Tech Stack
+# Step 3: Install the necessary dependencies.
+npm i
 
-- **Frontend**: React.js, Tailwind CSS, GSAP
-- **Deployment**: Vercel
-- **Design Tools**: Figma, Adobe Firefly
-- **Animations**: GSAP
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
----
+**Edit a file directly in GitHub**
 
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/0611bfa8-51e4-4071-97b1-5f05d9f84af2) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
