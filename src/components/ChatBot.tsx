@@ -50,20 +50,31 @@ const ChatBot = () => {
     setMessages(prev => [...prev, { text: input, isBot: false }]);
     
     // Simulate bot response
-    setTimeout(() => {
-      let response = "Hi, I am Satvik. The chatbot is not fully completed yet. If you want to talk to me, please send me an email.";
-      
-      // Simple bot responses based on keywords
-      if (input.toLowerCase().includes('contact')) {
-        response = "You can contact Satvik at 7satvikpatil@gmail.com";
-      } else if (input.toLowerCase().includes('project') || input.toLowerCase().includes('work')) {
-        response = "Check out Satvik's GitHub for his latest projects: https://github.com/Satvikpatil7";
-      } else if (input.toLowerCase().includes('skills') || input.toLowerCase().includes('experience')) {
-        response = "Satvik is skilled in JavaScript, React, Redux, Tailwind CSS, and has experience with AWS and Azure.";
-      }
-      
-      setMessages(prev => [...prev, { text: response, isBot: true }]);
-    }, 1000);
+   setTimeout(() => {
+  let lowerInput = input.toLowerCase();
+  let response = "Hi, I am Satvik. The chatbot is not fully completed yet. If you want to talk to me, please send me an email.";
+
+  // Custom keyword-based responses
+  if (lowerInput.includes("contact")) {
+    response = "You can contact Satvik at 7satvikpatil@gmail.com.";
+  } else if (lowerInput.includes("project") || lowerInput.includes("work")) {
+    response = "Check out Satvik's GitHub for his latest projects: https://github.com/Satvikpatil7";
+  } else if (lowerInput.includes("skills") || lowerInput.includes("experience")) {
+    response = "Satvik is skilled in JavaScript, React, Redux, Tailwind CSS, and has experience with AWS and Azure.";
+  } else if (lowerInput.includes("hi") || lowerInput.includes("hello")) {
+    response = "Hello! 👋 How can I assist you today?";
+  } else if (lowerInput === "ok") {
+    response = "Alright!";
+  } else if (lowerInput.includes("who is satvik")) {
+    response = "Satvik is a passionate software developer focused on building modern web apps using React and cloud technologies.";
+  } else if (lowerInput.includes("intern") || lowerInput.includes("barracuda")) {
+    response = "Satvik worked as a Software Developer Intern at Barracuda Networks, gaining valuable industry experience.";
+  } else if (lowerInput.includes("education") || lowerInput.includes("be")) {
+    response = "Satvik is pursuing a Bachelor's degree (B.E.) in Computer Engineering.";
+  }
+
+  setMessages(prev => [...prev, { text: response, isBot: true }]);
+}, 1000);
     
     setInput('');
   };
@@ -111,7 +122,7 @@ const ChatBot = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type your message..."
-              className="flex-1 bg-gray-900 border border-gray-700 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-accent"
+              className="flex-1 bg-gray-900 text-[#a2d2ff] border border-gray-700 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-accent"
             />
             <Button type="submit" size="icon" className="bg-accent hover:bg-accent/80">
               <Send size={18} />
