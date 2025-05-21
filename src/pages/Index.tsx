@@ -68,12 +68,16 @@ const Index = () => {
   }, []);
 
   const handleResumeClick = () => {
-    const link = document.createElement("a");
-    link.href = ".//Util/resume-example.pdf"; // Path to your resume file
-    link.download = "resume-example.pdf"; // Name for the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const handleResumeClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1-wfrXElfDtxOP_rUFxaqz7liy0IC51MD/view?usp=sharing",
+      "_blank"
+    );
+    toast({
+      title: "Resume Download",
+      description: "Resume download started",
+    });
+  };
 
     toast({
       title: "Resume Download",
