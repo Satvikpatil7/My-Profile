@@ -1,0 +1,302 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root.dark-mode, :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 252 100% 69%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 262 83% 58%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --radius: 0.75rem;
+  }
+
+  :root.light-mode {
+    --background: 220 20% 97%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 252 95% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 5% 90%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 262 83% 58%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5% 64.9%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-["Poppins",sans-serif] antialiased overflow-x-hidden transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-["Montserrat",sans-serif] font-bold;
+  }
+}
+
+.glass {
+  @apply backdrop-blur-sm border rounded-xl transition-colors duration-300 shadow-lg;
+}
+
+.dark-mode .glass {
+  @apply bg-black/40 border-white/10;
+}
+
+.light-mode .glass {
+  @apply bg-white/80 border-black/10;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+}
+
+.dark-mode .gradient-text {
+  @apply bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500;
+}
+
+.light-mode .gradient-text {
+  @apply bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600;
+}
+
+.watermark {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.05) 0px,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+  background-size: 200% 200%;
+}
+
+.light-mode .watermark {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.05) 0px,
+    rgba(0, 0, 0, 0.05) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent/80;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Three.js canvas container */
+.three-canvas {
+  @apply fixed top-0 left-0 w-full h-screen -z-10 opacity-50;
+}
+
+/* Solar system background */
+.solar-system-canvas {
+  @apply fixed top-0 left-0 w-full h-screen -z-10;
+  pointer-events: none;
+}
+
+/* Planet scene styling */
+.planet-scene-container {
+  @apply fixed top-0 left-0 w-full h-screen;
+  z-index: -1;
+}
+
+.planet-controls {
+  @apply fixed bottom-6 left-1/2 transform -translate-x-1/2 px-4 py-3 glass rounded-full flex items-center gap-3;
+  z-index: 10;
+}
+
+/* Loading animation */
+.loading-container {
+  @apply fixed inset-0 flex items-center justify-center bg-background z-50 transition-opacity duration-500;
+}
+
+.loading-content {
+  @apply text-center flex flex-col items-center justify-center;
+}
+
+.loading-logo {
+  @apply text-4xl font-bold gradient-text;
+}
+
+.loading-description {
+  @apply flex flex-row flex-wrap justify-center items-center;
+}
+
+/* Space theme styles */
+.space-gradient {
+  @apply bg-gradient-to-b from-indigo-900 via-black to-black;
+}
+
+.star {
+  @apply absolute rounded-full bg-white/80 animate-pulse;
+}
+
+/* Fix text readability in light mode */
+.light-mode {
+  @apply text-gray-800;
+}
+
+.dark-mode {
+  @apply text-gray-100;
+}
+
+/* More specific light mode improvements */
+.light-mode .text-gray-300, 
+.light-mode .text-gray-400, 
+.light-mode .text-gray-500 {
+  @apply text-gray-700;
+}
+
+.light-mode .text-white {
+  @apply text-gray-800;
+}
+
+.light-mode .glass p {
+  @apply text-gray-700;
+}
+
+.light-mode nav a {
+  @apply text-gray-700 hover:text-accent;
+}
+
+/* Project section improved styles for light mode */
+.light-mode .project-card-description {
+  @apply text-gray-700;
+}
+
+.light-mode .project-card-tag {
+  @apply bg-gray-200 text-gray-700;
+}
+
+/* Chart visibility fix for light mode */
+.light-mode .recharts-cartesian-axis-tick-value {
+  @apply fill-gray-700;
+}
+
+.light-mode .recharts-text {
+  @apply fill-gray-800;
+}
+
+.light-mode .recharts-legend-item-text {
+  @apply text-gray-700;
+}
+
+/* Category button styling */
+.category-button {
+  @apply px-4 py-2 rounded-full text-sm font-medium transition-all;
+}
+
+.dark-mode .category-button {
+  @apply bg-gray-800 hover:bg-gray-700 text-white;
+}
+
+.light-mode .category-button {
+  @apply bg-white hover:bg-gray-100 text-gray-800 border border-gray-300;
+}
+
+.category-button.active {
+  @apply bg-accent text-white;
+}
+
+/* Chat widget improved styling for better visibility in light mode */
+.light-mode .chatbot-widget {
+  @apply border-gray-300 shadow-lg;
+}
+
+.light-mode .chat-message-user {
+  @apply bg-blue-100 text-gray-800;
+}
+
+.light-mode .chat-message-ai {
+  @apply bg-gray-100 text-gray-800;
+}
+
+/* Space station elements */
+.space-station-module {
+  @apply glass px-4 py-3 mb-3;
+}
+
+.space-station-title {
+  @apply text-lg font-medium mb-2 flex items-center gap-2;
+}
+
+.space-station-status {
+  @apply flex items-center gap-1 text-xs;
+}
+
+.status-indicator {
+  @apply w-2 h-2 rounded-full;
+}
+
+.status-active {
+  @apply bg-green-500 animate-pulse;
+}
+
+.status-warning {
+  @apply bg-yellow-500 animate-pulse;
+}
+
+.status-inactive {
+  @apply bg-red-500;
+}
+
+/* Animations */
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-in-out forwards;
+}
