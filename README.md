@@ -65,10 +65,3 @@ Welcome to the official portfolio of **Satvik Patil** – a dark-themed, modern,
 
 ---
 
-## 🛠️ Setup & Run Locally
-
-```bash
-git clone https://github.com/Satvikpatil7/My-Profile.git
-cd My-Profile
-npm install
-npm run dev
