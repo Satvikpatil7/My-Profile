@@ -377,7 +377,7 @@ const Index = () => {
 
             <div className="glass p-8 gsap-reveal">
               <h3 className="text-2xl font-semibold mb-4 text-white">
-                Aspiring Web Developer
+                Aspiring Developer
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed text-justify">
                 I'm a passionate software engineer with strong fundamentals in
