@@ -156,7 +156,7 @@ const Footer = () => {
               : "text-gray-500 border-t border-black/5"
           }`}
         >
-          Satvik Patil
+         @Satvik Patil
         </div>
       </div>
     </footer>
