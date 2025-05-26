@@ -126,11 +126,11 @@ const LoadingScreen = () => {
             Satvik Patil
           </h1>
           <div className="loading-description text-xl md:text-2xl mb-2">
-            <span className="text-accent animate-pulse inline-block">Developer</span>
+            <span className="text-accent animate-pulse inline-block">Imagine</span>
             <span className="mx-2">|</span>
-            <span className="text-gray-300">Designer</span>
+            <span className="text-gray-300">Build</span>
             <span className="mx-2">|</span>
-            <span className="text-gray-300">Creator</span>
+            <span className="text-gray-300">Deploy</span>
           </div>
         </div>
       </div>
