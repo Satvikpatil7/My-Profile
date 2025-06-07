@@ -519,10 +519,9 @@ const Index = () => {
             </div>
 
             <p className="text-gray-300 leading-relaxed text-justify">
-              Currently working on automating deployments and enhancing secure
-              web applications for enterprise clients. Built CI/CD pipelines,
-              improved UI with React, Redux, and TypeScript, and contributed to
-              web application security and threat detection efforts.
+              Contributed to full-stack development securing cloud data on OneDrive and SharePoint. Enhanced frontend using
+React, Redux, and TypeScript to improve user experience and app performance. Developed a reusable C# API to
+enable advanced report generation, boosting product functionality and modularity.
             </p>
           </div>
         </div>
