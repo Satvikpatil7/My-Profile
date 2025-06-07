@@ -86,7 +86,7 @@ const Index = () => {
 
   const handleResumeClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1-wfrXElfDtxOP_rUFxaqz7liy0IC51MD/view?usp=sharing",
+      "https://drive.google.com/file/d/1GGX5T23izL3A6y15ryru8b7xPGYAj6Nc/view",
       "_blank"
     );
     toast({
@@ -327,7 +327,7 @@ const Index = () => {
                 : "text-gray-800 hover:bg-accent/10"
             } animate-on-load`}
           >
-            Download Resume
+            View Resume
           </Button>
 
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
