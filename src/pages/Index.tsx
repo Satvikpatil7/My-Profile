@@ -503,7 +503,7 @@ Hi, I'm Satvik Patil. I completed my B.Tech in CSE from Basaveshwar Engineering 
           <div className="max-w-3xl mx-auto glass p-8 gsap-reveal">
             <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
               <h3 className="text-xl font-semibold text-white">
-                SSoftware Development Engineer I
+                Software Development Engineer I
               </h3>
               <div className="md:ml-auto text-accent">Barracuda Networks</div>
             </div>
