@@ -24,8 +24,7 @@ const Footer = () => {
                   : "text-gray-600 text-justify"
               } mb-4`}
             >
-              Passionate about creating, connecting, and solving real-world
-              problems. Let’s build something great together!
+              Let’s team up to turn ideas into innovative solutions
             </p>
           </div>
 
