@@ -380,15 +380,10 @@ const Index = () => {
                 Aspiring Developer
               </h3>
               <p className="text-gray-300 mb-6 leading-relaxed text-justify">
-                I'm a passionate software engineer with strong fundamentals in
-                DSA, DBMS, OS, CN, and OOPs. I've solved 150+ problems on
-                LeetCode and have solid skills in web development using
-                JavaScript, React, Redux, Tailwind CSS, SQL, AWS, and Azure. I
-                love building efficient and user-friendly web applications.
-              </p>
+Hi, I'm Satvik Patil. I completed my B.Tech in CSE from Basaveshwar Engineering College and currently work as a Software Development Engineer I at Barracuda Networks. I enjoy exploring ideas, building solutions, and chasing goals as a full-stack developer.              </p>
               <div className="border-l-4 border-accent pl-4 py-2">
                 <p className="text-gray-300 italic">
-                  B.E. Computer Science, Basaveshwar Engineering College
+                  Java | SQL | Azure | JavaScript | React.js | Redux
                 </p>
               </div>
             </div>
@@ -508,7 +503,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto glass p-8 gsap-reveal">
             <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
               <h3 className="text-xl font-semibold text-white">
-                Software Developer Intern
+                SSoftware Development Engineer I
               </h3>
               <div className="md:ml-auto text-accent">Barracuda Networks</div>
             </div>
@@ -519,9 +514,7 @@ const Index = () => {
             </div>
 
             <p className="text-gray-300 leading-relaxed text-justify">
-              Contributed to full-stack development securing cloud data on OneDrive and SharePoint. Enhanced frontend using
-React, Redux, and TypeScript to improve user experience and app performance. Developed a reusable C# API to
-enable advanced report generation, boosting product functionality and modularity.
+              I'm a Software Development Engineer I at Barracuda Networks, working on the Data Inspector platform using C#, SharePoint, and React, with a focus on problem-solving and building effective solutions.
             </p>
           </div>
         </div>
